@@ -1,0 +1,114 @@
+Enum.GetName(typeof(Genericos.SystemFlag), Genericos.SystemFlag.BLAC);
+/// <summary>
+    /// Clase que contiene los identificadores de los sistemas actuales
+    /// </summary>
+    [Flags]
+    public enum SystemFlag
+    {
+        /// <summary>
+        /// Sistema Integral de Catastro
+        /// </summary>
+        [DefaultValue("SICAT")]
+        SICAT = 1,
+ 
+        /// <summary>
+        /// Sistema Integral de Recursos Humanos
+        /// </summary>
+        [DefaultValue("SIREH")]
+        SIREH = 2,
+ 
+        /// <summary>
+        /// Sistema Integral de Ingresos
+        /// </summary>
+        [DefaultValue("SING")]
+        SING = 4,
+ 
+        /// <summary>
+        /// Sistema Integral de Patrimonio
+        /// </summary>
+        [DefaultValue("SRM")]
+        SRM = 8,
+ 
+        /// <summary>
+        /// Sistema Integral de Contabilidad
+        /// </summary>
+        [DefaultValue("SCG")]
+        SCG = 16,
+ 
+        /// <summary>
+        /// Sistema Integral de Egresos
+        /// </summary>
+        [DefaultValue("SE")]
+        SE = 32,
+ 
+        /// <summary>
+        /// Sistema Integral de Compras
+        /// </summary>
+        [DefaultValue("SCOM")]
+        SCOM = 64,
+ 
+        /// <summary>
+        /// Sistema Integral de Presupuestos
+        /// </summary>
+        [DefaultValue("SCP")]
+        SCP = 128,
+ 
+        /// <summary>
+        /// Sistema Integral de Planeación
+        /// </summary>
+        [DefaultValue("SP")]
+        SP = 256,
+ 
+        /// <summary>
+        /// Sistema Integral de Seguridad
+        /// </summary>
+        [DefaultValue("BLAC")]
+        BLAC = 512,
+ 
+        /// <summary>
+        /// Sistema Integral de Almacenes
+        /// </summary>
+        [DefaultValue("SIA")]
+        SIA = 1024,
+ 
+        /// <summary>
+        /// Sistema Integral de Asistencia
+        /// </summary>
+        [DefaultValue("SICA")]
+        SICA = 2048,
+ 
+        /// <summary>
+        /// Sistema Integral de Nómina
+        /// </summary>
+        [DefaultValue("SINOM")]
+        SINOM = 4096,
+ 
+        /// <summary>
+        /// Sistema Integral de Control Vehicular
+        /// </summary>
+        [DefaultValue("SICV")]
+        SICV = 8192,
+ 
+        /// <summary>
+        /// Sistema Integral de Gestión de Recursos Federales
+        /// </summary>
+        [DefaultValue("SIRF")]
+        SIRF = 16384,
+ 
+        /// <summary>
+        /// Sistema Integral de Encuestas
+        /// </summary>
+        [DefaultValue("SIE")]
+        SIE = 32768,
+ 
+        /// <summary>
+        /// Sistema Integral de Desarrollo Urbano
+        /// </summary>
+        [DefaultValue("SDU")]
+        SDU = 65536,
+ 
+        /// <summary>
+        /// Sistema Integral de Indicadores
+        /// </summary>
+        [DefaultValue("SII")]
+        SII = 131072
